@@ -6,7 +6,11 @@ class Form extends Component {
         return(
             <div>
                 <h2>Registro</h2>
-                <FormRow/>
+                <FormRow inputType="text" labelText="Nombre"/>
+                <FormRow inputType="text" labelText="Apellidos"/>
+                <FormRow inputType="email" labelText="Email"/>
+                <FormRow inputType="password" labelText="Password"/>
+                <FormRow inputType="password" labelText="Confirm Password"/>
             </div>
         );
     }
